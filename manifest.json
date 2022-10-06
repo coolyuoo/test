@@ -1,56 +1,8 @@
 {
   "homepages": [],
-  "source_base_path": "D:/CodeProject/自己的/C_SHARP/TestDocFX/TestDocFX",
+  "source_base_path": "D:/CodeProject/自己的/C_SHARP/UseDocfx/UseDocfx",
   "xrefmap": "xrefmap.yml",
   "files": [
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TestDocFX.Pages.ErrorModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TestDocFX.Pages.ErrorModel.html",
-          "hash": "PFAaYqzkNR3K3bWGwUhfKCX7c3S5cPUpGa4CdbLF4Q8="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TestDocFX.Pages.IndexModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TestDocFX.Pages.IndexModel.html",
-          "hash": "MBJv/3ypF+nd/I2SFl3gyWj6FIvRhfoudblY7GGcUQk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TestDocFX.Pages.PrivacyModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TestDocFX.Pages.PrivacyModel.html",
-          "hash": "KaAAL3hTZy8w005JqcWDT+dqZQsdZaJ7VWew1SBWAyM="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TestDocFX.Pages.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TestDocFX.Pages.html",
-          "hash": "Rrru8uGkcIDEp+T7O0+ZYAt4xlpubyENbz5pr1pSFXk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
@@ -69,7 +21,19 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "xKt0pVuByzW4R3RSap8unpE67+xmzenSjpdoBlNhT18="
+          "hash": "53cDPdjyKTmYSaPMwcMYYJO/bYpeY21eGi/JWyVQBqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Mongodb筆記-新增_刪除欄位.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Mongodb筆記-新增_刪除欄位.html",
+          "hash": "JiaQip0cZKexVWU6Td9nVXEZG7NCoPK3hsbuT+zUGyU="
         }
       },
       "is_incremental": false,
@@ -84,7 +48,7 @@
           "hash": "nzj3nZSTldqmGMlu3nZJJIODlMZRm0QzNxHM0vuKyTU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+          "hash": "hEDSf0ujnYsdzcYvUmh2XyCeLi58sV+rsRiOAWcVXGM="
         }
       },
       "is_incremental": false,
@@ -134,12 +98,6 @@
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
